@@ -1,1 +1,4 @@
-models/rgbd*
+models/*
+!models/rgbd-dataset
+models/rgbd-dataset/*
+!models/rgbd-dataset/temp
