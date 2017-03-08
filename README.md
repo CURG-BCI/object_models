@@ -16,6 +16,7 @@ object_models
   * >file_name.iv
   * quit
 4. follow from step 6 below
+5. rm .ply file
 
 
 #### From .stl file:
