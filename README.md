@@ -5,6 +5,17 @@ object_models
 
 #### From .vtk file:
 
+1. pcl_vtk2ply file_name.vtk file_name.ply
+2. meshlab file_name.ply
+  * export as file_name_forIV.stl
+  * Filters > Normals, Curvatures and Orientation > Transform:Scale
+    * 0.001 (uniform scaling)
+    * export as file_name.stl
+3. ivcon
+  * <file_name_forIV.stl
+  * >file_name.iv
+  * quit
+4. follow from step 6 below
 
 
 #### From .stl file:
