@@ -36,7 +36,7 @@ object_models
 9. moveit_trajectory_planner/scripts/world_manager_helpers/object_filename_dict.py
   add new stl model file_name path
   add new model to file_name_dict
-10. mvp_objrec/objrec_ros_integration/launch/models.launch
+10. .../models.launch
   * add model to rosparam
   * add model and path to param name for vtk and stl
 11. verify new models with pcl_viewer
